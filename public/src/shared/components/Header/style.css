@@ -1,0 +1,391 @@
+nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #555;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav .logo{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo img{
+    width: 50px;
+    height: 50px;
+}
+
+nav .nav-tabs{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+nav .nav-tabs ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Alexandria';
+}
+
+nav .nav-tabs ul li{
+    margin: 10px;
+    font-size: 13px;
+}
+
+nav .nav-tabs ul li a{
+    text-decoration: none;
+    color: #666;
+}
+
+nav .nav-tabs ul li a:hover{
+    color: #f5014d;
+}
+
+nav .nav-tabs ul li button{
+    background-color: #fff;
+    font-family: 'Alexandria';
+    color: #666;
+    font-size: 11px;
+    padding: 5px 10px;
+    border: 1.5px solid #666;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav .nav-tabs ul li button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    nav{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #fff;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px #555;
+        position: sticky;
+        top: 0;
+    }
+    
+    nav .logo{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    nav .nav-tabs{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    
+    nav .nav-tabs ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: 'Alexandria';
+    }
+    
+    nav .nav-tabs ul li{
+        margin: 10px;
+        font-size: 13px;
+    }
+    
+    nav .nav-tabs ul li a{
+        text-decoration: none;
+        color: #666;
+        font-size: 10px;
+    }
+    
+    nav .nav-tabs ul li a:hover{
+        color: #f5014d;
+    }
+    
+    nav .nav-tabs ul li button{
+        background-color: #fff;
+        font-family: 'Alexandria';
+        color: #666;
+        font-size: 11px;
+        padding: 5px 10px;
+        border: 1.5px solid #666;
+        text-transform: uppercase;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    nav .nav-tabs ul li button:hover{
+        background-color: #000;
+        color: #fff;
+    }    
+ }
+
+ @media screen and (min-width: 375px) { 
+    nav{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #fff;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px #555;
+        position: sticky;
+        top: 0;
+    }
+
+    nav .logo{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .logo img{
+        width: 30px;
+        height: 30px;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+    nav{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #fff;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px #555;
+        position: sticky;
+        top: 0;
+    }
+
+    nav .logo{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .logo img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    nav .nav-tabs{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+    nav{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #fff;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px #555;
+        position: sticky;
+        top: 0;
+    }
+
+    nav .logo{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .logo img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    nav .nav-tabs{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+    nav .nav-tabs ul li a{
+        text-decoration: none;
+        color: #666;
+        font-size: 13px;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+    nav{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #fff;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px #555;
+        position: sticky;
+        top: 0;
+    }
+    
+    nav .logo{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    nav .nav-tabs{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    
+    nav .nav-tabs ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: 'Alexandria';
+    }
+    
+    nav .nav-tabs ul li{
+        margin: 10px;
+        font-size: 15px;
+    }
+    
+    nav .nav-tabs ul li a{
+        text-decoration: none;
+        color: #666;
+        font-size: 15px;
+    }
+    
+    nav .nav-tabs ul li a:hover{
+        color: #f5014d;
+    }
+    
+    nav .nav-tabs ul li button{
+        background-color: #fff;
+        font-family: 'Alexandria';
+        color: #666;
+        font-size: 11px;
+        padding: 5px 10px;
+        border: 1.5px solid #666;
+        text-transform: uppercase;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    nav .nav-tabs ul li button:hover{
+        background-color: #000;
+        color: #fff;
+    }
+    
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) { 
+    nav{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #fff;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px #555;
+        position: sticky;
+        top: 0;
+    }
+    
+    nav .logo{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    nav .nav-tabs{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    
+    nav .nav-tabs ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: 'Alexandria';
+    }
+    
+    nav .nav-tabs ul li{
+        margin: 10px;
+        font-size: 15px;
+    }
+    
+    nav .nav-tabs ul li a{
+        text-decoration: none;
+        color: #666;
+    }
+    
+    nav .nav-tabs ul li a:hover{
+        color: #f5014d;
+    }
+    
+    nav .nav-tabs ul li button{
+        background-color: #fff;
+        font-family: 'Alexandria';
+        color: #666;
+        font-size: 11px;
+        padding: 5px 10px;
+        border: 1.5px solid #666;
+        text-transform: uppercase;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    nav .nav-tabs ul li button:hover{
+        background-color: #000;
+        color: #fff;
+    }    
+ }
