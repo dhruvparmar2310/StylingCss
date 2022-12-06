@@ -1,0 +1,71 @@
+.service-card-design{
+    width: 15%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+.service-card-design img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.service-card-design p.title{
+    margin: 10px 0;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
+.service-card-design p.desc{
+    font-size: 11px;
+    margin: 10px 0;
+}
+
+.service-card-design button{
+    border: none;
+    background-color: #f8f9fc;
+    font-size: 10px;
+}
+
+.service-card-design button::after{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #f5014ece;
+}
+
+@media screen and (max-width: 576px) {
+    .service-card-design{
+        width: 50%;
+        height: auto;
+        box-sizing: border-box;
+        margin: 10px;
+    }
+    .service-card-design img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    
+    .service-card-design p.title{
+        margin: 10px 0;
+        font-size: 15px;
+        word-spacing: 5px;
+    }
+    
+    .service-card-design p.desc{
+        font-size: 11px;
+        margin: 10px 0;
+    }
+    
+    .service-card-design button{
+        border: none;
+        background-color: #f8f9fc;
+        font-size: 10px;
+    }    
+    
+}
